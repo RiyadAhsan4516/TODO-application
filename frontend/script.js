@@ -13,9 +13,9 @@ const addTask = async (data) => {
       referrerPolicy: "no-referrer",
       body: JSON.stringify(data),
     });
-    // window.setTimeout(() => {
-    //   location.assign("/");
-    // }, 300);
+    window.setTimeout(() => {
+      location.assign("/landing");
+    }, 300);
   } catch (err) {
     alert("something went wrong!");
   }
@@ -33,7 +33,7 @@ const deleteTask = async (sl) => {
       referrerPolicy: "no-referrer",
     });
     window.setTimeout(() => {
-      location.assign("/");
+      location.assign("/landing");
     }, 300);
   } catch (err) {
     alert("something went wrong!");

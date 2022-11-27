@@ -21,7 +21,7 @@ html
                 input#taskname(type="text" name="description")
                 br
                 input#submit(type="submit" value="Add task")
-        p= `Showing ${results} results of ${TotalDocs}`
+        p= `Showing ${results} results out of ${TotalDocs}`
         each task in tasks
             div.todolist
                 div.card
