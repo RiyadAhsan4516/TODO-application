@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TODO</title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+  </head>
+  <body>
+    <h1>TODO APPLICATION</h1>
+    <div class="form">
+      <form class="submit-form">
+        <label for="deadline" class="lab">Deadline:</label>
+        <input type="date" id="deadline" name="deadline" /><br />
+        <label for="description" class="lab">Task:</label>
+        <input type="text" id="taskname" name="description" /><br />
+        <input type="submit" value="submit" id="submit" />
+      </form>
+    </div>
+    <p>Showing 3 results of 3</p>
+    <div class="todolist">
+      <div class="card">
+        <p class="tasktext">1. &ensp; get a job &emsp; 2022/11/27</p>
+      </div>
+      <button class="delete">🗑</button>
+    </div>
+    <div class="todolist">
+      <div class="card">
+        <p class="tasktext">
+          2. &ensp; try to fix the template &emsp; 2022/11/27
+        </p>
+      </div>
+      <button class="delete">🗑</button>
+    </div>
+    <div class="todolist">
+      <div class="card">
+        <p class="tasktext">3. &ensp; finish the interview &emsp; 2022/11/27</p>
+      </div>
+      <button class="delete">🗑</button>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>

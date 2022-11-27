@@ -1,0 +1,63 @@
+* {
+  margin: 0;
+  font-size: 25px;
+  font-family: "Signika", sans-serif;
+}
+body {
+  text-align: center;
+  height: 100vh;
+  background-color: whitesmoke;
+}
+form {
+  font-size: 20px;
+  margin-bottom: 2%;
+}
+h1 {
+  margin-top: 3%;
+  margin-bottom: 2%;
+  font-size: 45px;
+}
+#deadline,
+#taskname {
+  margin-bottom: 1rem;
+  font-size: 20px;
+}
+#taskname {
+  width: 80%;
+}
+.lab {
+  margin-right: 4%;
+}
+.form {
+  text-align: left;
+  margin: 10px auto 10px auto;
+  max-width: 40%;
+}
+.todolist {
+  text-align: center;
+  padding: 0.1%;
+  margin-top: 2%;
+}
+.card {
+  font-size: 20px;
+  text-align: left;
+  width: 35rem;
+  margin: 10px auto 10px auto;
+  padding: 1%;
+  border: 2px solid #eee;
+  box-shadow: 0 3px 5px rgb(137, 137, 137);
+  display: inline-block;
+}
+.tasktext {
+  display: inline-block;
+  margin-left: 20px;
+}
+.delete {
+  display: inline-block;
+  position: relative;
+  left: 2%;
+}
+
+#submit {
+  font-size: 20px;
+}
