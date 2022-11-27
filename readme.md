@@ -1,7 +1,7 @@
 # A simple TODO application
 
 This is a simple todo application created using node.js, express.js, mongoDB and mongoose
-I have done server side rendering using the pug tmeplate. This is still an ongoing project.
+I have done server side rendering using the pug template. This is still an ongoing project.
 
 Bugs:
 
