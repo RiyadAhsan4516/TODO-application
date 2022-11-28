@@ -11,21 +11,22 @@ html
         link(href="https://fonts.googleapis.com/css2?family=Noto+Sans+Display:ital,wght@0,300;1,300&family=Patrick+Hand&family=Signika&display=swap" rel="stylesheet")
 
     body
-        h1 TODO APPLICATION
-        div.form
-            form.submit-form
-                label.lab(for="deadline") Deadline:
-                input#deadline(type="date" name="deadline")
-                br
-                label.lab(for="description") Task:
-                input#taskname(type="text" name="description")
-                br
-                input#submit(type="submit" value="Add task")
-        p= `Showing ${results} results out of ${TotalDocs}`
-        each task in tasks
-            div.todolist
-                div.card
-                    p.tasktext= `${task.DocNumber}.  ${task.Description} Deadline: ${new Date(`${task.Date}`).toLocaleDateString()}`
-                button.delete 🗑
-
-        script(src="script.js")
+        main.main
+            h1 TODO APPLICATION
+            div.form
+                form.submit-form
+                    label.lab(for="deadline") Deadline:
+                    input#deadline(type="date" name="deadline")
+                    br
+                    label.lab(for="description") Task:
+                    input#taskname(type="text" name="description")
+                    br
+                    input#submit(type="submit" value="Add task")
+            p= `Showing ${results} results out of ${TotalDocs}`
+            each task in tasks
+                div.todolist
+                    div.card
+                        p.tasktext= `${task.DocNumber}.  ${task.Description} Deadline: ${new Date(`${task.Date}`).toLocaleDateString()}`
+                    button.delete 🗑
+    
+            script(src="script.js")

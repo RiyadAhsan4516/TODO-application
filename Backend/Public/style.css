@@ -5,8 +5,8 @@
 }
 body {
   text-align: center;
-  height: 100vh;
-  background-color: whitesmoke;
+  max-height: 100vh;
+  background-image: linear-gradient(to right, white, rgb(221, 223, 221));
 }
 form {
   font-size: 20px;
@@ -24,6 +24,19 @@ h1 {
 }
 #taskname {
   width: 80%;
+}
+.main {
+  max-width: 80%;
+  margin: 3rem auto 2rem auto;
+  height: 80vh;
+  border: 2px solid #eee;
+  box-shadow: 0 6px 8px rgb(137, 137, 137);
+  background-image: linear-gradient(
+    to bottom right,
+    rgb(240, 240, 166),
+    rgb(240, 231, 231),
+    rgb(192, 249, 192)
+  );
 }
 .lab {
   margin-right: 4%;
@@ -46,6 +59,12 @@ h1 {
   padding: 1%;
   border: 2px solid #eee;
   box-shadow: 0 3px 5px rgb(137, 137, 137);
+  background-image: linear-gradient(
+    to right,
+    rgb(225, 221, 225),
+    white,
+    rgb(225, 221, 225)
+  );
   display: inline-block;
 }
 .tasktext {
