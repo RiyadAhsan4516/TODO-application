@@ -7,7 +7,7 @@ exports.countDocs = async (req, res, next) => {
 
 exports.getList = async (req, res, next) => {
   try {
-    const tasks = await Tasks.find().limit(3).sort("Date");
+    const tasks = await Tasks.find().limit(5).sort("Date");
     res.status(200).json({
       status: "Success",
       TotalDocs: req.total,
@@ -25,7 +25,7 @@ exports.getList = async (req, res, next) => {
 // For viewing
 exports.showList = async (req, res, next) => {
   try {
-    const tasks = await Tasks.find().limit(3).sort("Date");
+    const tasks = await Tasks.find().limit(5).sort("Date");
     res.status(200).render("base", {
       TotalDocs: req.total,
       results: tasks.length,

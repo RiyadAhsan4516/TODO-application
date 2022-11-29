@@ -23,8 +23,8 @@ html
                     br
                     input#submit(type="submit" value="Add task")
             p= `Showing ${results} results out of ${TotalDocs}`
-            each task in tasks
-                div.todolist
+            div.todolist
+                each task in tasks
                     div.card
                         p.tasktext= `${task.DocNumber}.  ${task.Description} Deadline: ${new Date(`${task.Date}`).toLocaleDateString()}`
                     button.delete 🗑
