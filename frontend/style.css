@@ -5,7 +5,7 @@
 }
 body {
   text-align: center;
-  height: 92.5vh;
+  max-height: 100vh;
   background-image: linear-gradient(to right, white, rgb(221, 223, 221));
 }
 form {
@@ -30,12 +30,12 @@ h1 {
   margin: 3rem auto 2rem auto;
   height: 80vh;
   border: 2px solid #eee;
-  box-shadow: 0 3px 5px rgb(137, 137, 137);
+  box-shadow: 0 6px 8px rgb(137, 137, 137);
   background-image: linear-gradient(
     to bottom right,
-    rgb(239, 239, 117),
+    silver,
     rgb(240, 231, 231),
-    rgb(117, 213, 117)
+    silver
   );
 }
 .lab {
@@ -59,7 +59,12 @@ h1 {
   padding: 1%;
   border: 2px solid #eee;
   box-shadow: 0 3px 5px rgb(137, 137, 137);
-  background-color: whitesmoke;
+  background-image: linear-gradient(
+    to right,
+    rgb(225, 221, 225),
+    white,
+    rgb(225, 221, 225)
+  );
   display: inline-block;
 }
 .tasktext {

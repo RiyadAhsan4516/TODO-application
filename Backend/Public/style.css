@@ -33,9 +33,9 @@ h1 {
   box-shadow: 0 6px 8px rgb(137, 137, 137);
   background-image: linear-gradient(
     to bottom right,
-    rgb(240, 240, 166),
+    silver,
     rgb(240, 231, 231),
-    rgb(192, 249, 192)
+    silver
   );
 }
 .lab {
